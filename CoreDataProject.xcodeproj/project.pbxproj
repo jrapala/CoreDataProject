@@ -13,6 +13,8 @@
 		BC2FCF7C25687F4400A053D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC2FCF7B25687F4400A053D2 /* Preview Assets.xcassets */; };
 		BC2FCF7E25687F4400A053D2 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2FCF7D25687F4400A053D2 /* Persistence.swift */; };
 		BC2FCF8125687F4400A053D2 /* CoreDataProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BC2FCF7F25687F4400A053D2 /* CoreDataProject.xcdatamodeld */; };
+		BC2FCF96256C34EF00A053D2 /* Singer+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2FCF94256C34EF00A053D2 /* Singer+CoreDataClass.swift */; };
+		BC2FCF97256C34EF00A053D2 /* Singer+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2FCF95256C34EF00A053D2 /* Singer+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		BC2FCF7D25687F4400A053D2 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		BC2FCF8025687F4400A053D2 /* CoreDataProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataProject.xcdatamodel; sourceTree = "<group>"; };
 		BC2FCF8225687F4400A053D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC2FCF94256C34EF00A053D2 /* Singer+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataClass.swift"; sourceTree = "<group>"; };
+		BC2FCF95256C34EF00A053D2 /* Singer+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		BC2FCF7325687F4100A053D2 /* CoreDataProject */ = {
 			isa = PBXGroup;
 			children = (
+				BC2FCF94256C34EF00A053D2 /* Singer+CoreDataClass.swift */,
+				BC2FCF95256C34EF00A053D2 /* Singer+CoreDataProperties.swift */,
 				BC2FCF7425687F4100A053D2 /* CoreDataProjectApp.swift */,
 				BC2FCF7625687F4100A053D2 /* ContentView.swift */,
 				BC2FCF7825687F4400A053D2 /* Assets.xcassets */,
@@ -144,9 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC2FCF96256C34EF00A053D2 /* Singer+CoreDataClass.swift in Sources */,
 				BC2FCF7E25687F4400A053D2 /* Persistence.swift in Sources */,
 				BC2FCF7725687F4100A053D2 /* ContentView.swift in Sources */,
 				BC2FCF8125687F4400A053D2 /* CoreDataProject.xcdatamodeld in Sources */,
+				BC2FCF97256C34EF00A053D2 /* Singer+CoreDataProperties.swift in Sources */,
 				BC2FCF7525687F4100A053D2 /* CoreDataProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
