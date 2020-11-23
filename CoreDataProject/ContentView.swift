@@ -15,6 +15,8 @@ struct ContentView: View {
 
     var body: some View {
         VStack {
+            FilteredList(filter: lastNameFilter)
+            
             Button("Add Examples") {
                 let taylor = Singer(context: self.moc)
                 taylor.firstName = "Taylor"

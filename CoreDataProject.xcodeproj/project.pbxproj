@@ -15,6 +15,7 @@
 		BC2FCF8125687F4400A053D2 /* CoreDataProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BC2FCF7F25687F4400A053D2 /* CoreDataProject.xcdatamodeld */; };
 		BC2FCF96256C34EF00A053D2 /* Singer+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2FCF94256C34EF00A053D2 /* Singer+CoreDataClass.swift */; };
 		BC2FCF97256C34EF00A053D2 /* Singer+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2FCF95256C34EF00A053D2 /* Singer+CoreDataProperties.swift */; };
+		BC2FCF9C256C376F00A053D2 /* FilteredList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2FCF9B256C376F00A053D2 /* FilteredList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		BC2FCF8225687F4400A053D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC2FCF94256C34EF00A053D2 /* Singer+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataClass.swift"; sourceTree = "<group>"; };
 		BC2FCF95256C34EF00A053D2 /* Singer+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		BC2FCF9B256C376F00A053D2 /* FilteredList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteredList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				BC2FCF8225687F4400A053D2 /* Info.plist */,
 				BC2FCF7F25687F4400A053D2 /* CoreDataProject.xcdatamodeld */,
 				BC2FCF7A25687F4400A053D2 /* Preview Content */,
+				BC2FCF9B256C376F00A053D2 /* FilteredList.swift */,
 			);
 			path = CoreDataProject;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 				BC2FCF8125687F4400A053D2 /* CoreDataProject.xcdatamodeld in Sources */,
 				BC2FCF97256C34EF00A053D2 /* Singer+CoreDataProperties.swift in Sources */,
 				BC2FCF7525687F4100A053D2 /* CoreDataProjectApp.swift in Sources */,
+				BC2FCF9C256C376F00A053D2 /* FilteredList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
