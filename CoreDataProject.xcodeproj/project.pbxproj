@@ -16,6 +16,7 @@
 		BC2FCF96256C34EF00A053D2 /* Singer+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2FCF94256C34EF00A053D2 /* Singer+CoreDataClass.swift */; };
 		BC2FCF97256C34EF00A053D2 /* Singer+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2FCF95256C34EF00A053D2 /* Singer+CoreDataProperties.swift */; };
 		BC2FCF9C256C376F00A053D2 /* FilteredList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2FCF9B256C376F00A053D2 /* FilteredList.swift */; };
+		BC2FCF9F256C3F4100A053D2 /* PredicateType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2FCF9E256C3F4100A053D2 /* PredicateType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		BC2FCF94256C34EF00A053D2 /* Singer+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataClass.swift"; sourceTree = "<group>"; };
 		BC2FCF95256C34EF00A053D2 /* Singer+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		BC2FCF9B256C376F00A053D2 /* FilteredList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteredList.swift; sourceTree = "<group>"; };
+		BC2FCF9E256C3F4100A053D2 /* PredicateType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredicateType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				BC2FCF7F25687F4400A053D2 /* CoreDataProject.xcdatamodeld */,
 				BC2FCF7A25687F4400A053D2 /* Preview Content */,
 				BC2FCF9B256C376F00A053D2 /* FilteredList.swift */,
+				BC2FCF9E256C3F4100A053D2 /* PredicateType.swift */,
 			);
 			path = CoreDataProject;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC2FCF96256C34EF00A053D2 /* Singer+CoreDataClass.swift in Sources */,
+				BC2FCF9F256C3F4100A053D2 /* PredicateType.swift in Sources */,
 				BC2FCF7E25687F4400A053D2 /* Persistence.swift in Sources */,
 				BC2FCF7725687F4100A053D2 /* ContentView.swift in Sources */,
 				BC2FCF8125687F4400A053D2 /* CoreDataProject.xcdatamodeld in Sources */,
